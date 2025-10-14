@@ -120,11 +120,16 @@ header.hero {
 }
 
 main {
-  max-width: 1200px;
-  margin: -3rem auto 0;
+  max-width: 1100px;
+  margin: 0 auto;
   padding: 0 1.5rem 4rem;
   position: relative;
   z-index: 1;
+}
+
+main.hub-main {
+  max-width: 1200px;
+  margin-top: -3rem;
 }
 
 section {
@@ -249,6 +254,61 @@ section {
   color: var(--primary-dark);
   font-weight: 500;
   font-size: 0.85rem;
+}
+
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.hub-grid .card h3 {
+  font-size: 1.2rem;
+}
+
+.hub-grid .card p {
+  font-size: 0.95rem;
+}
+
+.hero.page-hero {
+  text-align: left;
+  padding: 4.5rem 1.5rem 3rem;
+}
+
+.hero.page-hero .hero-content {
+  align-items: flex-start;
+  text-align: left;
+  gap: 1rem;
+}
+
+.hero.page-hero .hero-actions {
+  justify-content: flex-start;
+}
+
+.hero.page-hero .hero-actions a {
+  background: rgba(15, 28, 57, 0.65);
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 1.25rem 0 2rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.breadcrumbs a {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.breadcrumbs span[aria-hidden="true"] {
+  color: rgba(82, 96, 109, 0.6);
+}
+
+.breadcrumbs span[role="link"] {
+  color: var(--muted);
 }
 
 .tasks-grid {

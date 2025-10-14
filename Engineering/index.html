@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Stage 5/6 Engineering Resource Hub</title>
-  <meta name="description" content="Landing page for Engineering program resources and learning sequences." />
+  <meta name="description" content="Landing hub for Engineering program resources, mirroring the Construction site structure." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
@@ -16,350 +16,89 @@
       <span class="badge">Engineering Faculty · Early draft</span>
       <h1>Stage 5 &amp; 6 Engineering Resource Hub</h1>
       <p class="lead">
-        A central home for engineering curriculum maps, project sequences, and classroom-ready learning experiences.
-        The layout mirrors the Construction hub so staff can transition seamlessly as bespoke Engineering materials go live.
+        Navigate curriculum maps, project sequences, and classroom resources using the same multi-page layout as the Construction hub.
+        Each card below opens a dedicated page so planning documents, task guides, and implementation tools stay easy to locate.
       </p>
-      <div class="hero-actions" role="navigation" aria-label="Featured resource links">
-        <a href="#curriculum" class="pill-link">Curriculum Maps</a>
-        <a href="#task-library" class="pill-link">Learning Pathways</a>
-        <a href="#resources" class="pill-link">Resource Bank</a>
+      <div class="hero-actions" role="navigation" aria-label="Primary engineering navigation">
+        <a href="stage5/index.html" class="pill-link">Stage 5 Overview</a>
+        <a href="task-library/index.html" class="pill-link">Task Library</a>
+        <a href="resources/index.html" class="pill-link">Resource Bank</a>
       </div>
       <nav class="sub-nav" aria-label="Engineering hub shortcuts">
-        <a href="#stage5">Stage 5 overview</a>
-        <a href="#stage6">Stage 6 build</a>
-        <a href="#task-library">Task library</a>
-        <a href="#resources">Resource bank</a>
-        <a href="#roadmap">Implementation roadmap</a>
+        <a href="stage6/index.html">Stage 6 build</a>
+        <a href="curriculum/index.html">Curriculum maps</a>
+        <a href="roadmap/index.html">Implementation roadmap</a>
+        <a href="faculty/index.html">Faculty collaboration</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main class="hub-main">
     <section class="callout" aria-labelledby="callout-heading">
       <h3 id="callout-heading">Welcome to the Engineering build</h3>
       <p>
-        The documents below have been migrated from faculty planning folders so that everything needed for Stage 5 and Stage 6
-        Engineering studies sits alongside the Construction suite. The hub is designed for scale: every card will eventually map
-        to multi-part modules, downloadable resources, and embedded media in the same style as Construction.
+        The Engineering hub mirrors the Construction experience with stand-alone pages for every program area. Downloadable files, in-development
+        assets, and future media will live on the relevant page so staff can bookmark exactly what they need.
       </p>
       <p>
-        Use the quick links to jump to curriculum documentation, view developing project pathways, and access curated teaching
-        resources. Feedback on structure and prioritised inclusions is encouraged while the hub takes shape—sections flagged as
-        “in development” will light up automatically as new assets are uploaded.
+        Start with the Stage 5 overview to understand the junior pathway, then explore the senior roadmap, task library, and resource bank. Feedback on
+        priorities is always welcome via the collaboration page.
       </p>
     </section>
 
-    <section id="stage5">
+    <section aria-labelledby="explore-heading">
       <div class="section-header">
-        <h2>Stage 5 Overview</h2>
-        <p>
-          A snapshot of the introductory program. These panels will grow into full landing pages containing lesson slide decks,
-          student folios, and WHS documentation as each component is digitised.
-        </p>
+        <h2 id="explore-heading">Explore the Engineering Library</h2>
+        <p>Use the tiles below to open focused pages that mirror the Construction task and module layout.</p>
       </div>
-      <div class="info-panels">
-        <article class="panel">
-          <h3>Term 1 · Orientation &amp; Safety</h3>
-          <p>
-            Establish routines through the Engineering Foundations task. Direct links to safety passports and induction videos
-            will drop in here once filming is complete.
-          </p>
-          <ul>
-            <li><span class="status-tag active">Live</span> Workshop expectations &amp; PPE refresher</li>
-            <li><span class="status-tag pending">Queued</span> Measurement masterclass mini-lessons</li>
-            <li>Draft risk assessment templates aligned with Technology Mandatory requirements</li>
-          </ul>
-        </article>
-        <article class="panel">
-          <h3>Term 2 · Structures Sprint</h3>
-          <p>
-            Students dive into load, stability, and mechanism exploration. Build galleries and bridge-testing data sets are
-            scheduled for upload to mirror the Construction evidence showcases.
-          </p>
-          <ul>
-            <li>Bridge lab folio scaffold with exemplar annotations</li>
-            <li><span class="status-tag pending">Queued</span> Simulation playlists (PhET, Bridge Designer, Algodoo)</li>
-            <li>Team critique protocols tied to communication outcomes</li>
-          </ul>
-        </article>
-        <article class="panel">
-          <h3>Term 3 · Control Systems Lab</h3>
-          <p>
-            Electronics and automation basics scaffolded through micro challenges. Expect wiring diagrams, starter code packs,
-            and troubleshooting videos to populate this card shortly.
-          </p>
-          <ul>
-            <li>Component reference sheets with storage locations</li>
-            <li><span class="status-tag pending">Queued</span> Microcontroller sandbox projects (micro:bit &amp; Arduino)</li>
-            <li>Draft assessment rubric aligned with Stage 5 outcomes</li>
-          </ul>
-        </article>
+      <div class="hub-grid">
+        <a class="card" href="stage5/index.html">
+          <h3>Stage 5 Program Overview</h3>
+          <p>Term-by-term vision, upcoming artefacts, and links to the foundational task suite.</p>
+        </a>
+        <a class="card" href="stage6/index.html">
+          <h3>Stage 6 Build Roadmap</h3>
+          <p>Priority areas for the senior refresh, status tracking, and contextual study planning.</p>
+        </a>
+        <a class="card" href="curriculum/index.html">
+          <h3>Curriculum Maps &amp; Scope</h3>
+          <p>Download current scope and sequence documents that align with Technology Mandatory outcomes.</p>
+        </a>
+        <a class="card" href="task-library/index.html">
+          <h3>Learning Pathways &amp; Task Library</h3>
+          <p>Dedicated task pages with links to Engineering Foundations, Structures, and Control Systems modules.</p>
+        </a>
+        <a class="card" href="resources/index.html">
+          <h3>Resource Bank</h3>
+          <p>Programs, templates, and coming-soon toolkits that mirror the Construction evidence bank.</p>
+        </a>
+        <a class="card" href="roadmap/index.html">
+          <h3>Implementation Roadmap</h3>
+          <p>Milestones for digital content, curriculum alignment, and platform enhancements through 2025.</p>
+        </a>
+        <a class="card" href="faculty/index.html">
+          <h3>Faculty Collaboration</h3>
+          <p>Meeting rhythms and feedback loops to coordinate new uploads and integration ideas.</p>
+        </a>
       </div>
     </section>
 
-    <section id="stage6">
+    <section aria-labelledby="quick-links">
       <div class="section-header">
-        <h2>Stage 6 Build Roadmap</h2>
-        <p>
-          Planning the senior course refresh requires coordination across units. The table highlights initial priorities and
-          signals where Construction-aligned assets will be repurposed.
-        </p>
-      </div>
-      <table class="stage-table" aria-label="Stage 6 engineering roadmap">
-        <thead>
-          <tr>
-            <th scope="col">Focus Area</th>
-            <th scope="col">Key Actions</th>
-            <th scope="col">Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Industry Context Refresh</td>
-            <td>
-              Update contextual studies to feature renewable energy, transport infrastructure, and automation. Link each context
-              to industry interviews and case studies similar to the Construction hub stories.
-            </td>
-            <td><span class="status-tag pending">Drafting</span></td>
-          </tr>
-          <tr>
-            <td>Evidence Collection Toolkit</td>
-            <td>
-              Adapt Construction observation checklists, folio exemplars, and assessment rubrics to Engineering criteria. Embed
-              them as downloadable bundles for each major project milestone.
-            </td>
-            <td><span class="status-tag">Scoping</span></td>
-          </tr>
-          <tr>
-            <td>Workshop Modernisation</td>
-            <td>
-              Map required tooling upgrades and maintenance schedules. Photo essays and VR walkthroughs will be linked here to
-              familiarise students with revised lab layouts before practical lessons commence.
-            </td>
-            <td><span class="status-tag active">In progress</span></td>
-          </tr>
-          <tr>
-            <td>Capstone Project Pathways</td>
-            <td>
-              Define optional capstone themes (sustainable homes, robotics, mobility devices) and align them with folio
-              checkpoints, theory modules, and community partnerships.
-            </td>
-            <td><span class="status-tag pending">Queued</span></td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section id="curriculum">
-      <div class="section-header">
-        <h2>Curriculum Maps &amp; Scope</h2>
-        <p>
-          High-level planning artifacts that define scope and sequence for Stage 5 and Stage 6 Engineering. These will inform the
-          assessment schedule and align with Technology Mandatory outcomes.
-        </p>
+        <h2 id="quick-links">Quick Downloads</h2>
+        <p>Frequently accessed documents are pinned here while deeper context lives on the dedicated pages.</p>
       </div>
       <div class="grid cards-2">
         <a class="card" href="Stage5_Engineering_Hybrid_ScopeSequence_FULL.docx">
           <h3>Stage 5 Hybrid Scope &amp; Sequence</h3>
-          <p>
-            Comprehensive semester-by-semester overview of learning experiences, project briefs, and assessment checkpoints for
-            Stage 5 Engineering.
-          </p>
+          <p>Semester-by-semester overview of learning experiences, project briefs, and assessment checkpoints.</p>
           <span class="meta">Word document · Last reviewed 2024</span>
         </a>
         <a class="card" href="Engineering Program 2026.docx">
           <h3>Stage 6 Engineering Program (Draft 2026)</h3>
-          <p>
-            Draft program framing weekly outcomes, industrial contexts, and evidence requirements in preparation for the 2026
-            cohort.
-          </p>
+          <p>Draft program outlining weekly outcomes, contexts, and evidence requirements for the 2026 cohort.</p>
           <span class="meta">Word document · Draft for consultation</span>
         </a>
-      </div>
-    </section>
-
-    <section id="task-library">
-      <div class="section-header">
-        <h2>Learning Pathways &amp; Task Library</h2>
-        <p>
-          Prototype pathways inspired by the Construction hub. Each task card links to an evolving outline that will eventually be
-          backed by theory modules, safety documentation, and observation checklists. Additional categories such as “Design Sprints”
-          and “Industry Briefs” will slot into this grid as they are drafted.
-        </p>
-      </div>
-      <div class="tasks-grid">
-        <a class="task-card" href="tasks/foundations.html">
-          <div class="task-number">01</div>
-          <h3>Engineering Foundations</h3>
-          <p>Orientation project covering workshop safety, measurement systems, and engineering thinking routines.</p>
-        </a>
-        <a class="task-card" href="tasks/structures.html">
-          <div class="task-number">02</div>
-          <h3>Structures &amp; Mechanisms</h3>
-          <p>Applied forces, mechanisms, and prototyping tasks aligned to the Stage 5 structures program.</p>
-        </a>
-        <a class="task-card" href="tasks/control-systems.html">
-          <div class="task-number">03</div>
-          <h3>Control Systems Lab</h3>
-          <p>Digital and analogue control investigations, microcontroller challenges, and assessment-ready artefacts.</p>
-        </a>
-      </div>
-      <div class="module-matrix" aria-label="Upcoming task collections">
-        <div class="matrix-card">
-          <h4>Coming Soon · Design Sprints</h4>
-          <p>Short, high-engagement builds that introduce students to specialist tools before major projects launch.</p>
-          <ul>
-            <li>Reverse engineering teardown (3 lessons) with photo documentation prompts.</li>
-            <li>Mini wind turbine challenge linking to sustainability outcomes.</li>
-            <li>CAD-to-laser workflow primer aligning with Construction drafting modules.</li>
-          </ul>
-        </div>
-        <div class="matrix-card">
-          <h4>Coming Soon · Industry Briefs</h4>
-          <p>Authentic challenges sourced from local partners. These will mirror the Construction “Client Brief” structure.</p>
-          <ul>
-            <li>Assistive technology ideation sprint with user interviews.</li>
-            <li>Transport infrastructure redesign scenario (bridge, tunnel, or transit hub).</li>
-            <li>Renewable energy systems feasibility study with data-logging requirements.</li>
-          </ul>
-        </div>
-      </div>
-      <p class="callout-note" role="note">
-        Looking for a specific piece of evidence? Each task page will soon surface linked modules (theory, WHS, skills practice) in
-        the right-hand column exactly as the Construction pages do. The navigation framework above is built to scale to dozens of
-        pages without restructuring.
-      </p>
-    </section>
-
-    <section id="resources">
-      <div class="section-header">
-        <h2>Resource Bank</h2>
-        <p>
-          Supporting materials curated for quick wins in the classroom. Expect this list to grow with CAD templates, worksheet
-          bundles, and risk assessment exemplars. Resources will eventually be tagged so they appear in search results across both
-          Engineering and Construction hubs.
-        </p>
-      </div>
-      <div class="grid cards-3">
-        <a class="card" href="9 Structures_Mechanism Program draft.docx">
-          <h3>Structures &amp; Mechanisms Program</h3>
-          <p>
-            Draft learning sequence featuring lesson objectives, practical builds, and formative assessment checkpoints tailored to
-            junior classes.
-          </p>
-          <span class="meta">Word document · Working draft</span>
-        </a>
-        <a class="card" href="10 Engineering Control Systems 2021 draft (1).docx">
-          <h3>Control Systems Program (2021)</h3>
-          <p>
-            Legacy unit exploring sensors, feedback, and automation. Serves as a starting point for the refreshed Stage 6 content.
-          </p>
-          <span class="meta">Word document · Archive reference</span>
-        </a>
-        <div class="card">
-          <h3>Coming Soon: Digital Toolkit</h3>
-          <p>
-            Planned repository for circuit simulations, CAD libraries, and exemplar folios mirroring the Construction evidence index.
-          </p>
-          <ul>
-            <li>Interactive theory slides</li>
-            <li>Student folio templates</li>
-            <li>Risk management pro-formas</li>
-          </ul>
-        </div>
-      </div>
-      <div class="resource-grid" aria-label="Resource collection roadmap">
-        <div class="resource-card">
-          <h3>WHS &amp; Risk Management</h3>
-          <p>Checklists, risk assessments, and induction packs aligned with the Construction WHS modules.</p>
-          <span>Next milestone: upload editable SWMS templates for electronics labs.</span>
-        </div>
-        <div class="resource-card">
-          <h3>Theory Module Slides</h3>
-          <p>Slide decks and narration scripts packaged for flipped learning.</p>
-          <span>Next milestone: record voiceovers for measurement fundamentals and control logic.</span>
-        </div>
-        <div class="resource-card">
-          <h3>Media &amp; Demonstrations</h3>
-          <p>Short-form videos, GIFs, and stills showcasing tool usage, lab setups, and exemplar prototypes.</p>
-          <span>Next milestone: finalise photo essay of the new automation benches.</span>
-        </div>
-        <div class="resource-card">
-          <h3>Student Folio Library</h3>
-          <p>Annotated folios, planning templates, and reflection prompts mapped to course outcomes.</p>
-          <span>Next milestone: digitise 2024 capstone folio samples for reference.</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="roadmap">
-      <div class="section-header">
-        <h2>Implementation Roadmap</h2>
-        <p>Track outstanding tasks as the Engineering site matures. Each milestone below mirrors the Construction delivery plan.</p>
-      </div>
-      <div class="highlight-grid">
-        <div class="highlight-card">
-          <h3>Digital Content Production</h3>
-          <ul>
-            <li>Film workshop induction clips and edit into short safety reels.</li>
-            <li>Storyboard microlearning videos for CAD, coding, and testing procedures.</li>
-            <li>Embed audio descriptions to support inclusive delivery.</li>
-          </ul>
-        </div>
-        <div class="highlight-card">
-          <h3>Curriculum Alignment</h3>
-          <ul>
-            <li>Map every Engineering outcome to Construction equivalents for cross-disciplinary projects.</li>
-            <li>Coordinate assessment windows to reduce clashes across VET courses.</li>
-            <li>Publish a combined evidence tracker for student folios.</li>
-          </ul>
-        </div>
-        <div class="highlight-card">
-          <h3>Platform Enhancements</h3>
-          <ul>
-            <li>Deploy shared search index spanning Construction and Engineering modules.</li>
-            <li>Enable analytics to surface the most accessed resources.</li>
-            <li>Introduce user role controls for student-only versus teacher-only content.</li>
-          </ul>
-        </div>
-      </div>
-      <ol class="timeline">
-        <li>
-          <strong>Term 1 2025 · Foundation Build</strong>
-          Launch Stage 5 Foundations modules, publish WHS induction assets, and pilot the integrated evidence tracker.
-        </li>
-        <li>
-          <strong>Term 2 2025 · Structures &amp; Industry Links</strong>
-          Release bridge and mechanism teaching packs, capture case-study interviews, and host an industry advisory session.
-        </li>
-        <li>
-          <strong>Term 3 2025 · Automation Expansion</strong>
-          Publish control systems code libraries, upload troubleshooting videos, and finalise Stage 6 capstone scaffolds.
-        </li>
-      </ol>
-    </section>
-
-    <section id="feedback">
-      <div class="section-header">
-        <h2>Faculty Collaboration</h2>
-        <p>
-          Regular check-ins will guide which sections are prioritised next. Add notes or requests in the shared OneNote, or reach out
-          via Teams to have new resources surfaced here quickly.
-        </p>
-      </div>
-      <div class="info-panels">
-        <article class="panel">
-          <h3>Weekly Drop-in</h3>
-          <p>Thursdays · 3:15pm · Engineering Lab. Share trials, capture student feedback, and nominate resources for digitisation.</p>
-        </article>
-        <article class="panel">
-          <h3>Feedback Loop</h3>
-          <p>Use the shared tracker to flag missing artefacts. Items tagged urgent bubble to the top of the roadmap above.</p>
-        </article>
-        <article class="panel">
-          <h3>Integration Ideas</h3>
-          <p>Have an idea that crosses into Construction or other TAS subjects? Document it and we’ll map the shared resources here.</p>
-        </article>
       </div>
     </section>
   </main>
