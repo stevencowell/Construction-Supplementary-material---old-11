@@ -1,0 +1,19 @@
+/* Shared stylesheet placeholder for future template-driven pages. */
+:root {
+  --brand-green: #28a745;
+  --text-color: #333;
+  --page-bg: #f9fafb;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+  color: var(--text-color);
+  background: var(--page-bg);
+}
+
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}

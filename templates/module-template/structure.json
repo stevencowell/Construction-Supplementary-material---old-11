@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "version": "1.0",
+  "required_files": ["index.html", "scaffold.html"],
+  "optional_files": ["worksheet.pdf", "teacher-notes.html"],
+  "asset_folder": "assets/",
+  "required_sections": [
+    "Learning Intentions",
+    "Success Criteria",
+    "Resources",
+    "Activities",
+    "Check for Understanding"
+  ],
+  "naming": {
+    "module_folder": "modules/module-XX-short-title/",
+    "assets_folder": "assets/"
+  },
+  "notes": "Use kebab-case in file and folder names. Keep links relative for GitHub Pages."
+}
