@@ -1,0 +1,17 @@
+{
+  "type": "task",
+  "version": "1.0",
+  "required_files": ["task.html"],
+  "optional_files": ["rubric.pdf", "teacher-guide.html"],
+  "required_sections": [
+    "Task Summary",
+    "Outcomes",
+    "Assessment Conditions",
+    "Linked Modules"
+  ],
+  "naming": {
+    "task_folder": "tasks/task-XX-short-title/",
+    "task_file": "task.html"
+  },
+  "notes": "Task pages should remain additive and link to module folders using relative paths."
+}
